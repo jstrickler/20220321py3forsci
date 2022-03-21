@@ -1,1 +1,2 @@
+print("SPAM SPAM SPAM SPAM SPAM")
 
