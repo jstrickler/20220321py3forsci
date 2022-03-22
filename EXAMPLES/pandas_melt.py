@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import pandas as pd
 
-columns = ['year', 'US', 'UK', 'CA', 'MX ']
+columns = ['year', 'US', 'UK', 'CA', 'MX']
 
 df = pd.DataFrame(
     [
@@ -18,6 +18,7 @@ melted = df.melt(
     var_name='country', value_name='population'
 )  # <2>
 
+print("Melted:")
 print(melted)
 
 
