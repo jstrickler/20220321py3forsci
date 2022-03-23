@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-
-count = 0
-with open("../DATA/alice.txt") as alice_in:
+file_path = "../DATA/alice.txt"
+alice_lines = 0
+total_lines = 0
+with open(file_path) as alice_in:
     for line in alice_in:
         if "Alice" in line:
-            count += 1
-
-print("Alice occurred on {} lines in alice.txt".format(count))
+            alice_lines += 1
+        total_lines += 1
+print("Alice occurred on {} lines out of {} in {}".format(alice_lines, total_lines, file_path))

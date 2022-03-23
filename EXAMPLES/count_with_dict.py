@@ -11,3 +11,22 @@ with open("../DATA/breakfast.txt") as breakfast_in:
 
 for item, count in counts.items():
     print(item, count)
+
+letter_counts = {}
+with open("../DATA/words.txt") as words_in:
+    for word in words_in:
+        first_letter = word[0]
+        if first_letter in letter_counts:
+            letter_counts[first_letter] += 1
+        else:
+            letter_counts[first_letter] = 1
+
+def by_value(letter_count):
+    letter, count = letter_count
+    return count, letter
+
+
+for letter, count in sorted(letter_counts.items(), key=by_value, reverse=True):
+    print(letter, count)
+
+print(letter_counts.items())
