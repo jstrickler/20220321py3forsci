@@ -6,7 +6,7 @@ def main():
     ws = wb['US Presidents']  # <.>
     headers = next(ws.values)   # <.>
     for row in ws.values:  # <.>
-        print(row[:5])   # <.>
+        print(row[:3])   # <.>
 
 
 if __name__ == '__main__':

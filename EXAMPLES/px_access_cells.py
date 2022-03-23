@@ -29,5 +29,8 @@ def main():
     )
     print()
 
+    print(ws["M10"].column, ws["M10"].row)
+    print(ws.cell(27, 3).coordinate)
+
 if __name__ == '__main__':
     main()

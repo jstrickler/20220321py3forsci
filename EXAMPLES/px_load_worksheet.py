@@ -20,7 +20,7 @@ def main():
     ws = wb.active
     print(ws, '\n')
 
-    print(ws['B2'].value)
+    print(ws['B3'].value)
 
 
 if __name__ == '__main__':
