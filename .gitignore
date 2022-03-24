@@ -193,3 +193,15 @@ venv.bak/
 
 # excel 
 ~$*
+EXAMPLES/columns_with_icons.xlsx
+EXAMPLES/fruits.xlsx
+EXAMPLES/parrot.txt
+EXAMPLES/presidents1.xlsx
+EXAMPLES/presidents4.xlsx
+EXAMPLES/presidents_conditional.xlsx
+EXAMPLES/presidents_formula.xlsx
+EXAMPLES/presidents_styles.xlsx
+airport_boardings.xlsx
+long_words.txt
+short_words.txt
+sorted_mary.txt
